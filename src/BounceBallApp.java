@@ -1,7 +1,7 @@
-import java.awt.*;
+/**import java.awt.*;
 import javax.swing.*;
 
-public class BounceBallApp extends JApplet {
+public class BounceBallApp extends JFrame {
   public BounceBallApp() {
     add(new BallControl());
   }
@@ -15,4 +15,4 @@ public class BounceBallApp extends JApplet {
     frame.setSize(400, 320);
     frame.setVisible(true);
   }
-}
+}*/

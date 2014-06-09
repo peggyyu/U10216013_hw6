@@ -1,4 +1,5 @@
 import javax.swing.*;
+
 import java.awt.event.*;
 import java.awt.*;
 
@@ -40,4 +41,14 @@ public class BallControl extends JPanel {
       }
     });
   }
+  
+  public static void main(String[] args) {
+	    BallControl applet = new BallControl();
+	    JFrame frame = new JFrame();
+	    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    frame.setTitle("BounceBallApp");
+	    frame.add(applet, BorderLayout.CENTER);
+	    frame.setSize(400, 320);
+	    frame.setVisible(true);
+	  }
 }
